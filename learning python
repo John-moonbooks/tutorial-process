@@ -1,0 +1,45 @@
+name = input("What's your name sir? :")
+age = input("May I know how old are you sir? :")
+print("Welcome Mike! , you are 20-year-old")
+greetings_question = input("Am I get it right? Yes/No :")
+
+if greetings_question == "Yes":
+    print("OK , nice to meet you Mike!")
+elif greetings_question == "YES":
+    print("OK , nice to meet you Mike!")
+elif greetings_question == "No":
+    print("Oh sorry " + name + " you are " + age + "-year-old! \nI think I get it right this time?")
+elif greetings_question == "NO":
+    print("Oh sorry " + name + " you are " + age + "-year-old! \nI think I get it right this time?")
+else:
+    print("Only enter YES or NO , thank you.")
+
+calculation_question = input("Would you like to do some calculation today? YES/NO :")
+if calculation_question == "Yes":
+    print("Ok , let's get start it!")
+elif calculation_question == "YES":
+    print("Ok , let's get start it!")
+elif calculation_question == "NO":
+    print("Okay , bye!")
+elif calculation_question == "No":
+    print("Okay , bye!")
+else:
+    print("Only enter YES or NO , thank you.")
+
+num1 = float(input("Pick up the 1ts number " + name +"! :"))
+op = input("Choose an operator :")
+num2 = float(input("Pick up the 2sd number " + name + "! :"))
+
+if op == "+":
+    result = num1 + num2
+elif op == "-":
+    result = num1 - num2
+elif op == "/":
+    result = num1 / num2
+elif op == "*":
+    result = num1 * num2
+else:
+    print("Invalid operator!")
+
+print("Here you go ~ " + str(result))
+
